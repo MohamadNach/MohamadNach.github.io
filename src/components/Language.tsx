@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const Language = () => {
   const [isLangOpen, setIsLangOpen] = useState(false);
   const [selectedLang, setSelectedLang] = useState('en');
-  const [t, i18n] = useTranslation();
+  const { i18n } = useTranslation();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const handleLanguageChange = (lang: string) => {
