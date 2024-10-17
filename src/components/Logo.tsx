@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import logo from '../assets/Tech Channel Logo in Sky Blue White Purple Bold Style (2).png';
+import logo from '../assets/logo.png';
 const Logo = () => {
   return (
     <>
