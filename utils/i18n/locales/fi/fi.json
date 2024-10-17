@@ -1,0 +1,64 @@
+{
+  "heroTitle": "Full Stack Kehittäjä",
+  "heroContent": "Olen intohimoinen full stack -kehittäjä, joka osaa luoda vankkoja ja skaalautuvia verkkosovelluksia. Olen hionut taitojani front-end-teknologioissa, kuten React ja Angular, sekä back-end-teknologioissa, kuten ASP.NET Core, Node.js, MySQL, PostgreSQL ja MongoDB. Tavoitteeni on hyödyntää osaamistani luodakseni innovatiivisia ratkaisuja, jotka edistävät liiketoiminnan kasvua ja tarjoavat poikkeuksellisia käyttökokemuksia.",
+  "aboutMeTitle": "Tietoa <1>Minusta</1>",
+  "aboutMeContent": "Olen omistautunut ja monipuolinen full-stack-kehittäjä Lahdesta, jolla on intohimo luoda tehokkaita ja käyttäjäystävällisiä verkkosovelluksia. Ohjelmointimatkani alkoi vuonna 2016 yksinkertaisesta uteliaisuudesta: miten tulostaa 'Hello, World!' Java-kielellä. Siitä lähtien tuo uteliaisuus on kasvanut palkitsevaksi uraksi, jota ohjaa haluni oppia jatkuvasti uutta ja kohdata uusia haasteita. Vahvan osaamisen ansiosta sekä front-end- että back-end-teknologioissa viihdyn tiimityössä, jossa monimutkaisten ongelmien ratkaiseminen ja laadukkaiden ratkaisujen toimittaminen ovat keskeisessä asemassa. Kokemukseni kattaa skaalautuvien verkkosovellusten kehittämisen, ja olen aina innokas laajentamaan osaamistani ja sopeutumaan nopeasti kehittyvään teknologiseen ympäristöön.",
+  "TechnologiesTitle": "Technologiat",
+  "ExperiencesTitle": "Kokemukset",
+  "experiences": [
+    {
+      "year": "2024",
+      "role": "Full Stack Kehittäjä",
+      "company": "Integrify",
+      "description": "Johtanut tiimiä verkkosovellusten kehittämisessä ja ylläpidossa käyttämällä JavaScriptiä, React.js:ää ja Node.js:ää. Toteuttanut RESTful API:ta ja integroinut MongoDB-tietokantojen kanssa. Tehnyt yhteistyötä sidosryhmien kanssa projektivaatimusten ja aikataulujen määrittelemiseksi.",
+      "technologies": [
+        "TypeScript",
+        "React.js",
+        "C#",
+        "ASP.NET Core",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "year": "2023",
+      "role": "Pilviohjelmistokehittäjä Harjoittelija",
+      "company": "Kempower Oyj",
+      "description": "Johtanut tiimiä verkkosovellusten kehittämisessä ja ylläpidossa käyttämällä JavaScriptiä, React.js:ää ja Node.js:ää. Toteuttanut RESTful API:ta ja integroinut MongoDB-tietokantojen kanssa. Tehnyt yhteistyötä sidosryhmien kanssa projektivaatimusten ja aikataulujen määrittelemiseksi.",
+      "technologies": ["TypeScript", "Angular", "Node.js", "mongoDB"]
+    }
+  ],
+  "projectsTitle": "Projektit",
+  "projects": [
+    {
+      "title": "Verkkokauppasivusto",
+      "image": "path/to/project-1.jpg",
+      "description": "Täysin toimiva verkkokauppasivusto, jossa on ominaisuuksia, kuten tuoteluettelo, ostoskori ja käyttäjän tunnistautuminen.",
+      "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Tehtävienhallintasovellus",
+      "image": "path/to/project-2.jpg",
+      "description": "Sovellus tehtävien ja projektien hallintaan, jossa on ominaisuuksia, kuten tehtävien luominen, tehtävien jakaminen ja edistymisen seuranta.",
+      "technologies": ["HTML", "CSS", "Angular", "Firebase"]
+    },
+    {
+      "title": "Portfoliosivusto",
+      "image": "path/to/project-3.jpg",
+      "description": "Henkilökohtainen portfoliosivusto, jossa esitellään projekteja, taitoja ja yhteystietoja.",
+      "technologies": ["HTML", "CSS", "React", "Bootstrap"]
+    },
+    {
+      "title": "Blogialusta",
+      "image": "path/to/project-4.jpg",
+      "description": "Alusta blogikirjoitusten luomiseen ja julkaisemiseen, jossa on ominaisuuksia, kuten rikastekstin muokkaus, kommentointi ja käyttäjäprofiilit.",
+      "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+    }
+  ],
+  "contactMeTitle": "Ota Yhteyttä",
+  "contactMe": {
+    "address": "Osoite",
+    "phone": "Puhelin",
+    "email": "Sähköposti"
+  },
+  "footer": "Kaikki oikeudet pidätetään."
+}

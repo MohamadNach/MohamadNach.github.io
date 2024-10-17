@@ -1,0 +1,67 @@
+{
+  "heroTitle": "Full Stack Developer",
+  "heroContent": "I am a passionate full-stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Angular and back-end technologies like ASP.NET Core, Node.js, MySQL, PostgreSQL, and MongoDB. I aim to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.",
+  "aboutMeTitle": "About <1>Me</1>",
+  "aboutMeContent": "I am a dedicated and versatile full-stack developer based in Lahti, Finland, with a passion for creating efficient, user-friendly web applications. My journey in programming began in 2016 with a simple curiosity: how to print 'Hello, World!' using Java. Since then, that curiosity has blossomed into a rewarding career, driven by my commitment to continuous learning and embracing new challenges. With a strong foundation in both front-end and back-end technologies, I thrive in collaborative environments where solving complex problems and delivering high-quality solutions is key. My experience spans developing scalable web applications, and I’m always eager to expand my knowledge and adapt to the evolving tech landscape. Outside of coding, I enjoy staying active and exploring the latest innovations in technology, which fuels my passion for continuous growth as a developer.",
+  "TechnologiesTitle": "Technologies",
+  "ExperiencesTitle": "Experiences",
+  "experiences": [
+    {
+      "year": "2024",
+      "role": "Full Stack Developer",
+      "company": "Integrify",
+      "description": "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
+      "technologies": [
+        "TypeScript",
+        "React.js",
+        "C#",
+        "ASP.NET Core",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "year": "2023",
+      "role": "Cloud Software Developer Trainee",
+      "company": "Kempower Oyj",
+      "description": "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
+      "technologies": ["TypeScript", "Angular", "Node.js", "mongoDB"]
+    }
+  ],
+  "projectsTitle": "projects",
+  "projects": [
+    {
+      "title": "E-Commerce Website",
+      "image": "../../../../src/assets/projects/project-1.jpg",
+      "link": "https://github.com/MohamadNach/budget-react",
+      "description": "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Task Management App",
+      "image": "../../../../src/assets/projects/project-2.jpg",
+      "link": "https://github.com/MohamadNach/budget-react",
+      "description": "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "technologies": ["HTML", "CSS", "Angular", "Firebase"]
+    },
+    {
+      "title": "Portfolio Website",
+      "image": "../../../../src/assets/projects/project-3.jpg",
+      "description": "A personal portfolio website showcasing projects, skills, and contact information.",
+      "technologies": ["HTML", "CSS", "React", "Bootstrap"]
+    },
+    {
+      "title": "Blogging Platform",
+      "image": "../../../../src/assets/projects/project-4.jpg",
+      "link": "https://github.com/MohamadNach/budget-react",
+      "description": "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+    }
+  ],
+  "contactMeTitle": "Contact Me",
+  "contactMe": {
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "footer": "All Rights Reserved."
+}

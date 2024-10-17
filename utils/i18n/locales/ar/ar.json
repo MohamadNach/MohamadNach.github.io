@@ -1,0 +1,67 @@
+{
+  "heroTitle": "مطور برمجيات متكامل",
+  "heroContent": "أنا مطور برمجيات متكامل شغوف بإنشاء تطبيقات ويب قوية وقابلة للتوسع. لقد طورت مهاراتي في تقنيات الواجهة الأمامية مثل React و Angular، وتقنيات الواجهة الخلفية مثل ASP.NET Core، و Node.js، و MySQL، و PostgreSQL، و MongoDB. أسعى لاستخدام خبرتي في تقديم حلول مبتكرة تعزز نمو الأعمال وتوفر تجارب مستخدم استثنائية.",
+  "aboutMeTitle": "عني",
+  "aboutMeContent": "أنا مطور برمجيات متكامل متعدد المهارات وأقيم في لاهتي، فنلندا، وأحب إنشاء تطبيقات ويب فعالة وسهلة الاستخدام. بدأت رحلتي في البرمجة في عام 2016 بدافع الفضول البسيط: كيفية طباعة 'Hello, World!' باستخدام Java. منذ ذلك الحين، نما هذا الفضول إلى مهنة مثمرة، مدفوعة بالتزامي بالتعلم المستمر وتبني التحديات الجديدة. بفضل أساس قوي في تقنيات الواجهة الأمامية والخلفية، أزدهر في بيئات تعاونية حيث يكون حل المشكلات المعقدة وتقديم حلول عالية الجودة هو الأساس. تتضمن خبرتي تطوير تطبيقات ويب قابلة للتوسع، وأنا دائمًا متحمس لتوسيع معرفتي والتكيف مع تطور التقنيات. بعيدًا عن البرمجة، أستمتع بالبقاء نشيطًا واستكشاف أحدث الابتكارات في مجال التكنولوجيا، مما يغذي شغفي بالنمو المستمر كمطور.",
+  "TechnologiesTitle": "التقنيات",
+  "ExperiencesTitle": "الخبرات",
+  "experiences": [
+    {
+      "year": "2024",
+      "role": "مطور برمجيات متكامل",
+      "company": "Integrify",
+      "description": "قمت بقيادة فريق لتطوير وصيانة تطبيقات ويب باستخدام JavaScript و React.js و Node.js. قمت بتنفيذ RESTful APIs وتكامل مع قواعد بيانات MongoDB. تعاونت مع أصحاب المصلحة لتحديد متطلبات المشروع والجداول الزمنية.",
+      "technologies": [
+        "TypeScript",
+        "React.js",
+        "C#",
+        "ASP.NET Core",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "year": "2023",
+      "role": "متدرب مطور برمجيات السحابة",
+      "company": "Kempower Oyj",
+      "description": "قمت بقيادة فريق لتطوير وصيانة تطبيقات ويب باستخدام JavaScript و React.js و Node.js. قمت بتنفيذ RESTful APIs وتكامل مع قواعد بيانات MongoDB. تعاونت مع أصحاب المصلحة لتحديد متطلبات المشروع والجداول الزمنية.",
+      "technologies": ["TypeScript", "Angular", "Node.js", "mongoDB"]
+    }
+  ],
+  "projectsTitle": "المشاريع",
+  "projects": [
+    {
+      "title": "موقع تجارة إلكترونية",
+      "image": "../../../../src/assets/projects/project-1.jpg",
+      "link": "https://github.com/MohamadNach/budget-react",
+      "description": "موقع تجارة إلكترونية متكامل يحتوي على ميزات مثل عرض المنتجات، وسلة التسوق، وتسجيل المستخدم.",
+      "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "تطبيق إدارة المهام",
+      "image": "../../../../src/assets/projects/project-2.jpg",
+      "link": "https://github.com/MohamadNach/budget-react",
+      "description": "تطبيق لإدارة المهام والمشاريع مع ميزات مثل إنشاء المهام وتعيينها وتتبع التقدم.",
+      "technologies": ["HTML", "CSS", "Angular", "Firebase"]
+    },
+    {
+      "title": "موقع بورتفوليو",
+      "image": "../../../../src/assets/projects/project-3.jpg",
+      "description": "موقع بورتفوليو شخصي يعرض المشاريع والمهارات ومعلومات الاتصال.",
+      "technologies": ["HTML", "CSS", "React", "Bootstrap"]
+    },
+    {
+      "title": "منصة تدوين",
+      "image": "../../../../src/assets/projects/project-4.jpg",
+      "link": "https://github.com/MohamadNach/budget-react",
+      "description": "منصة لإنشاء ونشر المدونات مع ميزات مثل تحرير النصوص الغنية، والتعليقات، والملفات الشخصية للمستخدمين.",
+      "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+    }
+  ],
+  "contactMeTitle": "اتصل بي",
+  "contactMe": {
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني"
+  },
+  "footer": "جميع الحقوق محفوظة."
+}
