@@ -2,6 +2,7 @@ import { RiReactjsLine } from 'react-icons/ri';
 import { RiAngularjsLine } from 'react-icons/ri';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { FaNode } from 'react-icons/fa';
+import { SiDotnet } from 'react-icons/si'; // This is the .NET icon from the Simple Icons
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
@@ -21,7 +22,7 @@ const iconVariants = (duration: number) => ({
 const Technologies = () => {
   const { t } = useTranslation();
   return (
-    <div className='border-b bor der-neutral-800 pb-24'>
+    <div className='border-b border-neutral-800 pb-24'>
       <h2 className='my-20 text-center text-4xl'>{t('TechnologiesTitle')}</h2>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -60,6 +61,16 @@ const Technologies = () => {
           className='rounded-2xl border-4 border-neutral-800 p-4'
         >
           <FaNode className='text-7xl text-green-600 ' />
+        </motion.div>
+        {/* Add the .NET icon here */}
+        <motion.div
+          variants={iconVariants(2.5)} // Use a duration that fits your animation style
+          initial='initial'
+          animate='animate'
+          className='rounded-2xl border-4 border-neutral-800 p-4'
+        >
+          <SiDotnet className='text-7xl text-blue-600 ' />{' '}
+          {/* Change color as needed */}
         </motion.div>
       </motion.div>
     </div>
