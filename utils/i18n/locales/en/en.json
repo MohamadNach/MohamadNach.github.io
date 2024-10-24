@@ -45,21 +45,21 @@
   "projects": [
     {
       "title": "E-Commerce Website",
-      "image": "../../../../public/projects/project-1.jpg",
+      "image": "../projects/project-1.jpg",
       "link": "https://github.com/MohamadNach/budget-react",
       "description": "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
       "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
     },
     {
       "title": "Task Management App",
-      "image": "../../../../public/projects/project-2.jpg",
+      "image": "../projects/project-2.jpg",
       "link": "https://github.com/MohamadNach/budget-react",
       "description": "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
       "technologies": ["HTML", "CSS", "Angular", "Firebase"]
     },
     {
       "title": "Portfolio Website",
-      "image": "../../../../public/projects/project-3.jpg",
+      "image": "../projects/project-3.jpg",
       "description": "A personal portfolio website showcasing projects, skills, and contact information.",
       "technologies": ["HTML", "CSS", "React", "Bootstrap"]
     },
