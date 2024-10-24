@@ -9,6 +9,7 @@ const container = (delay: number) => ({
 });
 const Hero = () => {
   const { t } = useTranslation();
+  const name = t('name');
   const heroTitle = t('heroTitle');
   const heroContent = t('heroContent');
 
@@ -23,7 +24,7 @@ const Hero = () => {
               animate='visible'
               className=' p-2 pb-16 text-5xl tracking-tight lg:mt-16 lg:text-7xl'
             >
-              Mohamad Nachawati
+              {name}
             </motion.h1>
             <motion.span
               variants={container(0.5)}

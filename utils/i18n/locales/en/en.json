@@ -1,8 +1,9 @@
 {
+  "name": "Mohamad Nachawati",
   "heroTitle": "Full Stack Developer",
-  "heroContent": "I am a passionate full-stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Angular and back-end technologies like ASP.NET Core, Node.js, MySQL, PostgreSQL, and MongoDB. I aim to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.",
+  "heroContent": "I am a passionate full-stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Angular and back-end technologies like ASP.NET Core, Node.js, MySQL, PostgreSQL, and DynamoDB. I aim to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.",
   "aboutMeTitle": "About <1>Me</1>",
-  "aboutMeContent": "I am a dedicated and versatile full-stack developer based in Lahti, Finland, with a passion for creating efficient, user-friendly web applications. My journey in programming began in 2016 with a simple curiosity: how to print 'Hello, World!' using Java. Since then, that curiosity has blossomed into a rewarding career, driven by my commitment to continuous learning and embracing new challenges. With a strong foundation in both front-end and back-end technologies, I thrive in collaborative environments where solving complex problems and delivering high-quality solutions is key. My experience spans developing scalable web applications, and I’m always eager to expand my knowledge and adapt to the evolving tech landscape. Outside of coding, I enjoy staying active and exploring the latest innovations in technology, which fuels my passion for continuous growth as a developer.",
+  "aboutMeContent": "I was born in Damascus, Syria. I started my academic journey by graduating with a diploma as an Agricultural Engineering Assistant in 2003. Following that, I spent six years working as an accountant, honing my skills in numbers and organization. However, the war in Syria forced me to leave my homeland, and I eventually moved to Finland in 2017, after spending some time in Turkey. In Finland, I embraced a fresh start, learning the Finnish language and diving into a new field that has always intrigued me: technology. I pursued my passion by studying Information and Communications Technology at LAB University of Applied Sciences in Lahti, Finland, and successfully graduated as a Software Engineer in late 2023. Since childhood, I’ve been fascinated by the latest tech trends and have always had a thirst for learning and self-development. Now, I’m channeling that passion into building innovative solutions and contributing to the world of software engineering.",
   "TechnologiesTitle": "Technologies",
   "ExperiencesTitle": "Experiences",
   "experiences": [
@@ -10,7 +11,7 @@
       "year": "2024",
       "role": "Full Stack Developer",
       "company": "Integrify",
-      "description": "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
+      "description": "",
       "technologies": [
         "TypeScript",
         "React.js",
@@ -20,11 +21,24 @@
       ]
     },
     {
-      "year": "2023",
+      "year": "May 2023 - August 2023",
       "role": "Cloud Software Developer Trainee",
       "company": "Kempower Oyj",
-      "description": "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-      "technologies": ["TypeScript", "Angular", "Node.js", "mongoDB"]
+      "description": "I developed new features, including localization, while resolving various bugs to enhance the application's functionality and user experience. Working closely with the R&D department, I actively participated in implementing Agile methodologies, collaborating with and learning from experienced professionals to deliver high-quality solutions. Throughout this process, I leveraged various technologies, including TypeScript, Node.js, Angular, Serverless architecture, and AWS services, to drive innovation and optimize performance.",
+      "technologies": [
+        "TypeScript",
+        "Angular",
+        "Node.js",
+        "DynamoDB",
+        "Serverless"
+      ]
+    },
+    {
+      "year": "September 2007 - November 2015",
+      "role": "Accountant",
+      "company": "Uncle Chips Factory",
+      "description": "I Organized supplier and customer accounts, prepared accounting reports and managed the general budget, which fostered my skills in accounting, logical thinking, and problem-solving. Gained hands-on experience with office computer programs and accounting software.",
+      "technologies": ["Aafaq Accounting Program", "Microsoft Office"]
     }
   ],
   "projectsTitle": "projects",
