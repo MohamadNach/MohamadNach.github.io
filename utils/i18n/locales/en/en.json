@@ -57,6 +57,20 @@
       "link": "https://github.com/MohamadNach/budget-react",
       "description": "A personal finance management application built using React and TypeScript. The application is designed to help users manage their incomes, expenses, savings, and set financial goals efficiently.",
       "technologies": ["HTML", "CSS", "React", "Redux"]
+    },
+    {
+      "title": "Full stack E-commerce",
+      "image": "../projects/Hero.jpg",
+      "link": "https://github.com/MohamadNach/fullstack-ecommerce-app",
+      "description": "Full-stack e-commerce application with React and Redux for the frontend, and ASP.NET Core 8 for the backend. The goal is to provide a seamless shopping experience for users, along with a robust management system for administrators.",
+      "technologies": [
+        ".NET Core",
+        "EF Core",
+        "PostgreSQL",
+        "React",
+        "Redux",
+        "TailwindCSS"
+      ]
     }
   ],
   "contactMeTitle": "Contact Me",

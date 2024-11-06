@@ -16,7 +16,7 @@ const Projects = () => {
   return (
     <div>
       <h2 className='my-20 text-center text-4xl'>{projectTitle}</h2>
-      <div className='grid lg:grid-cols-4 justify-center gap-10'>
+      <div className='grid lg:grid-cols-3 justify-center gap-10'>
         {projects.map((project, index) => (
           <div key={index}>
             <ProjectCard

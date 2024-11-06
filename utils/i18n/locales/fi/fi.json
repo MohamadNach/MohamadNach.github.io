@@ -59,16 +59,18 @@
       "technologies": ["HTML", "CSS", "React", "Redux"]
     },
     {
-      "title": "Portfoliosivusto",
-      "image": "../projects/project-3.jpg",
-      "description": "Henkilökohtainen portfoliosivusto, jossa esitellään projekteja, taitoja ja yhteystietoja.",
-      "technologies": ["HTML", "CSS", "React", "Bootstrap"]
-    },
-    {
-      "title": "Blogialusta",
-      "image": "../projects/project-4.jpg",
-      "description": "Alusta blogikirjoitusten luomiseen ja julkaisemiseen, jossa on ominaisuuksia, kuten rikastekstin muokkaus, kommentointi ja käyttäjäprofiilit.",
-      "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+      "title": "Full stack E-commerce",
+      "image": "../projects/Hero.jpg",
+      "link": "https://github.com/MohamadNach/fullstack-ecommerce-app",
+      "description": "Full-stack-verkkokauppasovellus, jossa frontend on rakennettu Reactin ja Reduxin avulla ja backend ASP.NET Core 8. Sovellus tarjoaa käyttäjille saumattoman ostokokemuksen sekä tehokkaan hallintajärjestelmän ylläpitäjille.",
+      "technologies": [
+        ".NET Core",
+        "EF Core",
+        "PostgreSQL",
+        "React",
+        "Redux",
+        "TailwindCSS"
+      ]
     }
   ],
   "contactMeTitle": "Ota Yhteyttä",

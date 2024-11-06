@@ -66,17 +66,18 @@
       "technologies": ["HTML", "CSS", "React", "Redux"]
     },
     {
-      "title": "موقع بورتفوليو",
-      "image": "../projects/project-3.jpg",
-      "description": "موقع بورتفوليو شخصي يعرض المشاريع والمهارات ومعلومات الاتصال.",
-      "technologies": ["HTML", "CSS", "React", "Bootstrap"]
-    },
-    {
-      "title": "منصة تدوين",
-      "image": "../projects/project-4.jpg",
-      "link": "https://github.com/MohamadNach/budget-react",
-      "description": "منصة لإنشاء ونشر المدونات مع ميزات مثل تحرير النصوص الغنية، والتعليقات، والملفات الشخصية للمستخدمين.",
-      "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+      "title": "Full stack E-commerce",
+      "image": "../projects/Hero.jpg",
+      "link": "https://github.com/MohamadNach/fullstack-ecommerce-app",
+      "description": "تطبيق تجارة إلكترونية متكامل مبني باستخدام React و Redux في الواجهة الأمامية و ASP.NET Core 8 في الواجهة الخلفية، يهدف إلى تقديم تجربة تسوق سلسة للمستخدمين ونظام إدارة متقدم وفعال للمسؤولين.",
+      "technologies": [
+        ".NET Core",
+        "EF Core",
+        "PostgreSQL",
+        "React",
+        "Redux",
+        "TailwindCSS"
+      ]
     }
   ],
   "contactMeTitle": "اتصل بي",
