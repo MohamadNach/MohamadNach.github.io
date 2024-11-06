@@ -11,7 +11,7 @@
       "year": "2024",
       "role": "Full Stack Kehittäjä",
       "company": "Integrify",
-      "description": "Johtanut tiimiä verkkosovellusten kehittämisessä ja ylläpidossa käyttämällä JavaScriptiä, React.js:ää ja Node.js:ää. Toteuttanut RESTful API:ta ja integroinut MongoDB-tietokantojen kanssa. Tehnyt yhteistyötä sidosryhmien kanssa projektivaatimusten ja aikataulujen määrittelemiseksi.",
+      "description": "",
       "technologies": [
         "TypeScript",
         "React.js",
@@ -44,26 +44,28 @@
   "projectsTitle": "Projektit",
   "projects": [
     {
-      "title": "Verkkokauppasivusto",
-      "image": "path/to/project-1.jpg",
-      "description": "Täysin toimiva verkkokauppasivusto, jossa on ominaisuuksia, kuten tuoteluettelo, ostoskori ja käyttäjän tunnistautuminen.",
-      "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+      "title": "Live-tietojen visualisointi",
+      "image": "../projects/Wind-power-production.jpg",
+      "link": "https://github.com/MohamadNach/Live-Data-visualization-D3.js",
+      "description": "Tarjoaa reaaliaikaisen datan visualisoinnin energiatiedoista Suomessa, erityisesti keskittyen tuulivoiman tuotantoon, sähkön tuotantoon ja kulutukseen.",
+      "technologies": ["HTML", "CSS", "React", "D3.js"]
     },
     {
-      "title": "Tehtävienhallintasovellus",
-      "image": "path/to/project-2.jpg",
-      "description": "Sovellus tehtävien ja projektien hallintaan, jossa on ominaisuuksia, kuten tehtävien luominen, tehtävien jakaminen ja edistymisen seuranta.",
-      "technologies": ["HTML", "CSS", "Angular", "Firebase"]
+      "title": "Budget React App",
+      "image": "../projects/budget-app.jpg",
+      "link": "https://github.com/MohamadNach/budget-react",
+      "description": "Reactorin ja TypeScriptin avulla kehitetty sovellus henkilökohtaisten talousasioiden hallintaan. Tämä sovellus on suunniteltu tarjoamaan käyttäjille tehokkaita työkaluja tulojen, menojen ja säästöjen hallintaan sekä taloudellisten tavoitteiden asettamiseen.",
+      "technologies": ["HTML", "CSS", "React", "Redux"]
     },
     {
       "title": "Portfoliosivusto",
-      "image": "path/to/project-3.jpg",
+      "image": "../projects/project-3.jpg",
       "description": "Henkilökohtainen portfoliosivusto, jossa esitellään projekteja, taitoja ja yhteystietoja.",
       "technologies": ["HTML", "CSS", "React", "Bootstrap"]
     },
     {
       "title": "Blogialusta",
-      "image": "path/to/project-4.jpg",
+      "image": "../projects/project-4.jpg",
       "description": "Alusta blogikirjoitusten luomiseen ja julkaisemiseen, jossa on ominaisuuksia, kuten rikastekstin muokkaus, kommentointi ja käyttäjäprofiilit.",
       "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
     }

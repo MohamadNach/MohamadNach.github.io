@@ -11,7 +11,7 @@
       "year": "2024",
       "role": "مطور برمجيات متكامل",
       "company": "Integrify",
-      "description": "قمت بقيادة فريق لتطوير وصيانة تطبيقات ويب باستخدام JavaScript و React.js و Node.js. قمت بتنفيذ RESTful APIs وتكامل مع قواعد بيانات MongoDB. تعاونت مع أصحاب المصلحة لتحديد متطلبات المشروع والجداول الزمنية.",
+      "description": "",
       "technologies": [
         "TypeScript",
         "React.js",
@@ -51,28 +51,28 @@
   "projectsTitle": "المشاريع",
   "projects": [
     {
-      "title": "موقع تجارة إلكترونية",
-      "image": "../../../../src/assets/projects/project-1.jpg",
-      "link": "https://github.com/MohamadNach/budget-react",
-      "description": "موقع تجارة إلكترونية متكامل يحتوي على ميزات مثل عرض المنتجات، وسلة التسوق، وتسجيل المستخدم.",
-      "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+      "title": "التصوير المباشر للبيانات",
+      "image": "../projects/Wind-power-production.jpg",
+      "link": "https://github.com/MohamadNach/Live-Data-visualization-D3.js",
+      "description": "يقدم عرضًا حيًا للبيانات المتعلقة بالطاقة في فنلندا، مع التركيز بشكل خاص على توليد الطاقة من الرياح، وإنتاج الكهرباء، واستهلاك الطاقة.",
+      "technologies": ["HTML", "CSS", "React", "D3.js"]
     },
     {
-      "title": "تطبيق إدارة المهام",
-      "image": "../../../../src/assets/projects/project-2.jpg",
+      "title": "Budget React App",
+      "image": "../projects/budget-app.jpg",
       "link": "https://github.com/MohamadNach/budget-react",
-      "description": "تطبيق لإدارة المهام والمشاريع مع ميزات مثل إنشاء المهام وتعيينها وتتبع التقدم.",
-      "technologies": ["HTML", "CSS", "Angular", "Firebase"]
+      "description": "تطبيق متقدم لإدارة الشؤون المالية الشخصية، تم تطويره باستخدام تقنيات React و TypeScript. يهدف التطبيق إلى تمكين المستخدمين من إدارة دخولهم ونفقاتهم ومدخراتهم، وتحديد أهدافهم المالية بفاعلية.",
+      "technologies": ["HTML", "CSS", "React", "Redux"]
     },
     {
       "title": "موقع بورتفوليو",
-      "image": "../../../../src/assets/projects/project-3.jpg",
+      "image": "../projects/project-3.jpg",
       "description": "موقع بورتفوليو شخصي يعرض المشاريع والمهارات ومعلومات الاتصال.",
       "technologies": ["HTML", "CSS", "React", "Bootstrap"]
     },
     {
       "title": "منصة تدوين",
-      "image": "../../../../src/assets/projects/project-4.jpg",
+      "image": "../projects/project-4.jpg",
       "link": "https://github.com/MohamadNach/budget-react",
       "description": "منصة لإنشاء ونشر المدونات مع ميزات مثل تحرير النصوص الغنية، والتعليقات، والملفات الشخصية للمستخدمين.",
       "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
