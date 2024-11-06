@@ -20,15 +20,15 @@ const ProjectCard = (props: Project) => {
         // Security best practice
         rel='noopener noreferrer'
       >
-        <h4 className='my-5 text-center text-l'>{props.title}</h4>
+        <h4 className='my-5 text-center text-xl'>{props.title}</h4>
         <img
           src={props.image}
           alt={props.title}
           width={250}
           height={250}
-          className=' rounded-2xl m-auto cursor-pointer h-[250px]'
+          className=' rounded-2xl m-auto cursor-pointer w-[400px] h-[400px] md:w-auto'
         />
-        <p className='w-[50%] m-auto py-5 lg:w-full'>{props.description}</p>
+        <p className='w-[60%] m-auto py-5 lg:w-full'>{props.description}</p>
         <div className='grid lg:grid-cols-1 items-stretch m-auto gap-1 w-[50%]'>
           {props.technologies.map((tech, index) => (
             <span

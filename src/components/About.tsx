@@ -21,11 +21,11 @@ const About = () => {
           transition={{ duration: 1 }}
           className='p-8 w-full lg:w-1/2'
         >
-          <div className='items-center justify-center'>
+          <div className='items-center justify-center w-2/3 m-auto md:w:1/2 lg:w-[70%]'>
             <img
               src={aboutMe}
               alt={aboutMeImageAltText}
-              className='rounded-3xl w-[400px] m-auto'
+              className='rounded-3xl w-auto m-auto '
             />
           </div>
         </motion.div>
