@@ -56,10 +56,12 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className='w-2/3 m-auto md:w:1/2 lg:w-1/2 lg:p-12 '>
+        <div className=' m-auto lg:w-1/2 lg:p-12 '>
           <motion.img
             src={profilePic}
             alt='Mohamad Nachawati'
+            width={450}
+            height={450}
             className='rounded-3xl'
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}

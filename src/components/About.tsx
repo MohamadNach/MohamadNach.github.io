@@ -9,26 +9,12 @@ const About = () => {
 
   return (
     <div className='border-b border-neutral-900 pb-4'>
-      <h2 className='my-20 text-center text-4xl'>
+      <h2 className='my-10 text-center text-4xl'>
         <Trans i18nKey='aboutMeTitle'>
           About <span className='text-[#5ce1e6]'>Me</span>
         </Trans>
       </h2>
       <div className='flex flex-wrap'>
-        <motion.div
-          whileInView={{ x: 0, opacity: 1 }}
-          initial={{ x: -100, opacity: 0 }}
-          transition={{ duration: 1 }}
-          className='p-8 w-full lg:w-1/2'
-        >
-          <div className='items-center justify-center w-2/3 m-auto md:w:1/2 lg:w-[70%]'>
-            <img
-              src={aboutMe}
-              alt={aboutMeImageAltText}
-              className='rounded-3xl w-auto m-auto '
-            />
-          </div>
-        </motion.div>
         <motion.div
           whileInView={{ x: 0, opacity: 1 }}
           initial={{ x: 100, opacity: 0 }}
