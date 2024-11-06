@@ -14,14 +14,19 @@ const ProjectCard = (props: Project) => {
       onHoverEnd={() => {}}
       className='flex-col w-full m-1'
     >
-      <a href={props.link}>
+      <a
+        href={props.link}
+        target='_blank' // Open in a new window/tab
+        // Security best practice
+        rel='noopener noreferrer'
+      >
         <h4 className='my-5 text-center text-l'>{props.title}</h4>
         <img
           src={props.image}
           alt={props.title}
           width={250}
           height={250}
-          className=' rounded-2xl m-auto cursor-pointer'
+          className=' rounded-2xl m-auto cursor-pointer h-[250px]'
         />
         <p className='w-[50%] m-auto py-5 lg:w-full'>{props.description}</p>
         <div className='grid lg:grid-cols-1 items-stretch m-auto gap-1 w-[50%]'>
