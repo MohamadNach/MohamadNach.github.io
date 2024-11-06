@@ -16,7 +16,7 @@ const ProjectCard = (props: Project) => {
     >
       <a
         href={props.link}
-        target='_blank' // Open in a new window/tab
+        target='_blank'
         // Security best practice
         rel='noopener noreferrer'
       >
