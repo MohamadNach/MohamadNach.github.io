@@ -5,6 +5,7 @@ import aboutMe from '../assets/AboutMe.jpg';
 
 const About = () => {
   const { t } = useTranslation();
+  const aboutMeImageAltText = t('aboutMeImageAltText');
 
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -23,7 +24,7 @@ const About = () => {
           <div className='items-center justify-center'>
             <img
               src={aboutMe}
-              alt='about'
+              alt={aboutMeImageAltText}
               className='rounded-3xl w-[400px] m-auto'
             />
           </div>
