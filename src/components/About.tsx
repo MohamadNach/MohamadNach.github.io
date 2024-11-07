@@ -2,7 +2,8 @@ import { motion } from 'framer-motion';
 import { Trans, useTranslation } from 'react-i18next';
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isArabic = i18n.language === 'ar';
 
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -18,7 +19,11 @@ const About = () => {
           transition={{ duration: 1 }}
           className='w-full  p-8'
         >
-          <div className='flex justify-center lg:justify-start'>
+          <div
+            className={`flex justify-center lg:justify-start ${
+              isArabic ? 'text-right' : ''
+            }`}
+          >
             <p>{t('aboutMeContent')}</p>
           </div>
         </motion.div>

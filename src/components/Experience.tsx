@@ -9,7 +9,9 @@ interface Experiences {
 }
 
 const Experience = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isArabic = i18n.language === 'ar';
+
   const experiences = t('experiences', {
     returnObjects: true,
   }) as Experiences[];
@@ -40,7 +42,13 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-              <p className='mb-4 text-neutral-400'>{experience.description}</p>
+              <p
+                className={`mb-4 text-neutral-400 ${
+                  isArabic ? 'text-right' : ''
+                }`}
+              >
+                {experience.description}
+              </p>
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}

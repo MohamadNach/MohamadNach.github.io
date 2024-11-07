@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import i18n from '../../utils/i18n';
 interface Project {
   title: string;
   image: string;
@@ -7,6 +8,7 @@ interface Project {
   technologies: string[];
 }
 const ProjectCard = (props: Project) => {
+  const isArabic = i18n.language === 'ar';
   return (
     <motion.div
       whileHover={{ scale: 1.05 }}
@@ -30,7 +32,13 @@ const ProjectCard = (props: Project) => {
           height={250}
           className=' rounded-2xl m-auto cursor-pointer w-[400px] h-[400px] md:w-auto'
         />
-        <p className='w-[60%] m-auto py-5 lg:w-full'>{props.description}</p>
+        <p
+          className={`w-[60%] m-auto py-5 lg:w-full ${
+            isArabic ? 'text-right' : ''
+          }`}
+        >
+          {props.description}
+        </p>
         <div className='grid lg:grid-cols-1 items-stretch m-auto gap-1 w-[50%]'>
           {props.technologies.map((tech, index) => (
             <span

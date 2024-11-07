@@ -11,6 +11,7 @@ const Contact = () => {
   const { t } = useTranslation();
   const contactMeTitle = t('contactMeTitle');
   const contactMe = t('contactMe', { returnObjects: true }) as ContactMe;
+
   return (
     <div className='border-b border-neutral-900 pb-20 '>
       <h2 className='my-20 text-center text-4xl'>{contactMeTitle}</h2>
