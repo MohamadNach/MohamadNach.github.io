@@ -9,19 +9,6 @@
   "ExperiencesTitle": "الخبرات",
   "experiences": [
     {
-      "year": "2024",
-      "role": "مطور برمجيات متكامل",
-      "company": "Integrify",
-      "description": "",
-      "technologies": [
-        "TypeScript",
-        "React.js",
-        "C#",
-        "ASP.NET Core",
-        "PostgreSQL"
-      ]
-    },
-    {
       "year": "مايو 2023 - أغسطس 2023",
       "role": "متدرب مطور برمجيات السحابة",
       "company": "Kempower Oyj",

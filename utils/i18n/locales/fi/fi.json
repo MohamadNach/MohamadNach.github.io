@@ -9,19 +9,6 @@
   "ExperiencesTitle": "Kokemukset",
   "experiences": [
     {
-      "year": "2024",
-      "role": "Full Stack Kehittäjä",
-      "company": "Integrify",
-      "description": "",
-      "technologies": [
-        "TypeScript",
-        "React.js",
-        "C#",
-        "ASP.NET Core",
-        "PostgreSQL"
-      ]
-    },
-    {
       "year": "Toukokuu 2023 - Elokuu 2023",
       "role": "Pilviohjelmistokehittäjä Harjoittelija",
       "company": "Kempower Oyj",

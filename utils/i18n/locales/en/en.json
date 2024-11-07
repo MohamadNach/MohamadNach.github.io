@@ -9,19 +9,6 @@
   "ExperiencesTitle": "Experiences",
   "experiences": [
     {
-      "year": "2024",
-      "role": "Full Stack Developer",
-      "company": "Integrify",
-      "description": "",
-      "technologies": [
-        "TypeScript",
-        "React.js",
-        "C#",
-        "ASP.NET Core",
-        "PostgreSQL"
-      ]
-    },
-    {
       "year": "May 2023 - August 2023",
       "role": "Cloud Software Developer Trainee",
       "company": "Kempower Oyj",
