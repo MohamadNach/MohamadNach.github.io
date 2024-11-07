@@ -60,7 +60,7 @@
     },
     {
       "title": "Full stack E-commerce",
-      "image": "../projects/Hero.jpg",
+      "image": "../projects/ecommerce.jpg",
       "link": "https://github.com/MohamadNach/fullstack-ecommerce-app",
       "description": "Full-stack e-commerce application with React and Redux for the frontend, and ASP.NET Core 8 for the backend. The goal is to provide a seamless shopping experience for users, along with a robust management system for administrators.",
       "technologies": [

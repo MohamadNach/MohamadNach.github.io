@@ -67,7 +67,7 @@
     },
     {
       "title": "Full stack E-commerce",
-      "image": "../projects/Hero.jpg",
+      "image": "../projects/ecommerce.jpg",
       "link": "https://github.com/MohamadNach/fullstack-ecommerce-app",
       "description": "تطبيق تجارة إلكترونية متكامل مبني باستخدام React و Redux في الواجهة الأمامية و ASP.NET Core 8 في الواجهة الخلفية، يهدف إلى تقديم تجربة تسوق سلسة للمستخدمين ونظام إدارة متقدم وفعال للمسؤولين.",
       "technologies": [

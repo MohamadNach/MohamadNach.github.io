@@ -60,7 +60,7 @@
     },
     {
       "title": "Full stack E-commerce",
-      "image": "../projects/Hero.jpg",
+      "image": "../projects/ecommerce.jpg",
       "link": "https://github.com/MohamadNach/fullstack-ecommerce-app",
       "description": "Full-stack-verkkokauppasovellus, jossa frontend on rakennettu Reactin ja Reduxin avulla ja backend ASP.NET Core 8. Sovellus tarjoaa käyttäjille saumattoman ostokokemuksen sekä tehokkaan hallintajärjestelmän ylläpitäjille.",
       "technologies": [

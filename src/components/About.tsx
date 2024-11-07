@@ -1,11 +1,8 @@
 import { motion } from 'framer-motion';
 import { Trans, useTranslation } from 'react-i18next';
 
-import aboutMe from '../assets/AboutMe.jpg';
-
 const About = () => {
   const { t } = useTranslation();
-  const aboutMeImageAltText = t('aboutMeImageAltText');
 
   return (
     <div className='border-b border-neutral-900 pb-4'>

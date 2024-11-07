@@ -22,6 +22,7 @@ const ProjectCard = (props: Project) => {
       >
         <h4 className='my-5 text-center text-xl'>{props.title}</h4>
         <img
+          data-fetchpriority='high'
           src={props.image}
           alt={props.title}
           width={250}

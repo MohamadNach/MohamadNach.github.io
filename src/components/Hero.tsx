@@ -14,6 +14,7 @@ const Hero = () => {
   const name = t('name');
   const heroTitle = t('heroTitle');
   const heroContent = t('heroContent');
+  const aboutMeImageAltText = t('aboutMeImageAltText');
 
   return (
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
@@ -59,7 +60,8 @@ const Hero = () => {
         <div className=' m-auto lg:w-1/2 lg:p-12 '>
           <motion.img
             src={profilePic}
-            alt='Mohamad Nachawati'
+            data-fetchpriority='high'
+            alt={aboutMeImageAltText}
             width={450}
             height={450}
             className='rounded-3xl'
