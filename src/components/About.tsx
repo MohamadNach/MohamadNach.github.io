@@ -16,7 +16,7 @@ const About = () => {
           whileInView={{ x: 0, opacity: 1 }}
           initial={{ x: 100, opacity: 0 }}
           transition={{ duration: 1 }}
-          className='w-full lg:w-1/2 p-8'
+          className='w-full  p-8'
         >
           <div className='flex justify-center lg:justify-start'>
             <p>{t('aboutMeContent')}</p>
