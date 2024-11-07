@@ -17,6 +17,7 @@ const ProjectCard = (props: Project) => {
       <a
         href={props.link}
         target='_blank'
+        aria-label='Move to see more details about this project'
         // Security best practice
         rel='noopener noreferrer'
       >

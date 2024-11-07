@@ -14,6 +14,7 @@ const Navbar = () => {
         <a
           href='https://www.linkedin.com/in/mohamad-nachawati-a801891b7/'
           target='_blank'
+          aria-label='Move to my LinkedIn page'
           rel='noopener noreferrer'
         >
           <FaLinkedin />
@@ -21,6 +22,7 @@ const Navbar = () => {
         <a
           href='https://github.com/MohamadNach'
           target='_blank'
+          aria-label='Move to my Github profile'
           rel='noopener noreferrer'
         >
           <FaGithub />
