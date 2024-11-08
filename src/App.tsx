@@ -1,3 +1,6 @@
+import ScrollToTop from 'react-scroll-to-top';
+import CookieConsent from 'react-cookie-consent';
+
 import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
@@ -22,6 +25,20 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
+        <ScrollToTop smooth style={{ padding: '5px' }} />
+        <CookieConsent
+          debug={true}
+          style={{ height: '100px', paddingTop: '20px' }}
+          buttonStyle={{
+            color: 'black',
+            background: '#ededed',
+            fontStyle: 'inherit',
+            border: 'rounded',
+          }}
+          buttonText='OK'
+        >
+          This site use cookies.
+        </CookieConsent>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
-      <div className='flex flex-wrap'>
+      <div className='flex flex-wrap flex-col-2'>
         <div className='w-full lg:w-1/2'>
           <div
             className={`flex flex-col items-center ${
@@ -57,14 +57,14 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className=' m-auto lg:w-1/2 lg:p-12 '>
+        <div className='m-auto lg:w-1/2 lg:p-12 '>
           <motion.img
             src={profilePic}
             data-fetchpriority='high'
             alt={aboutMeImageAltText}
-            width={450}
+            width={500}
             height={450}
-            className='rounded-3xl'
+            className='rounded-3xl m-auto'
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}

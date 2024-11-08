@@ -30,7 +30,7 @@ const ProjectCard = (props: Project) => {
           alt={props.title}
           width={250}
           height={250}
-          className=' rounded-2xl m-auto cursor-pointer w-[400px] h-[400px] md:w-auto'
+          className=' rounded-2xl m-auto cursor-pointer w-[400px] h-[400px] md:w-[700px]'
         />
         <p
           className={`w-[60%] m-auto py-5 lg:w-full ${
