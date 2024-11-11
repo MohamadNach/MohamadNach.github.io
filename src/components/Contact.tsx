@@ -18,7 +18,9 @@ interface Inputs {
 }
 
 const Contact = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isArabic = i18n.language === 'ar';
+
   const contactMeTitle = t('contactMeTitle');
   const contactMe = t('contactMe', { returnObjects: true }) as ContactMe;
   const form = useRef<HTMLFormElement>(null);
@@ -90,7 +92,12 @@ const Contact = () => {
           ref={form}
           onSubmit={handleSubmit(sendEmail)}
         >
-          <label htmlFor='user_name'>{contactMe.name}</label>
+          <label
+            htmlFor='user_name'
+            className={`w-[250px] ${isArabic ? 'text-right' : ''}`}
+          >
+            {contactMe.name}
+          </label>
           <div className='flex'>
             <input
               className='w-[250px] mb-5 text-black p-1 rounded'
@@ -101,7 +108,12 @@ const Contact = () => {
             <p className='pl-3 pt-1'>{errors.user_name?.message}</p>
           </div>
 
-          <label htmlFor='user_email'>{contactMe.email}</label>
+          <label
+            htmlFor='user_email'
+            className={`w-[250px] ${isArabic ? 'text-right' : ''}`}
+          >
+            {contactMe.email}
+          </label>
           <div className='flex'>
             <input
               className='w-[250px] mb-5 text-black p-1 rounded'
@@ -112,7 +124,12 @@ const Contact = () => {
             <p className='pl-3 pt-1'>{errors.user_email?.message}</p>
           </div>
 
-          <label htmlFor='message'>{contactMe.message}</label>
+          <label
+            htmlFor='message'
+            className={`w-[350px] md:w-[450px] ${isArabic ? 'text-right' : ''}`}
+          >
+            {contactMe.message}
+          </label>
           <div className='flex'>
             <textarea
               className='w-[350px] md:w-[450px] h-[150px] mb-5 text-black p-1 rounded'
