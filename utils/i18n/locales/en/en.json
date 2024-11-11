@@ -62,9 +62,10 @@
   ],
   "contactMeTitle": "Contact Me",
   "contactMe": {
-    "address": "Address",
-    "phone": "Phone",
-    "email": "Email"
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
   },
   "footer": "All Rights Reserved."
 }

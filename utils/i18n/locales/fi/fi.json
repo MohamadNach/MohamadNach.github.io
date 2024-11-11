@@ -62,9 +62,10 @@
   ],
   "contactMeTitle": "Ota Yhteyttä",
   "contactMe": {
-    "address": "Osoite",
-    "phone": "Puhelin",
-    "email": "Sähköposti"
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "message": "Viesti",
+    "send": "Lähetä"
   },
   "footer": "Kaikki oikeudet pidätetään."
 }
