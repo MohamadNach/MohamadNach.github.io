@@ -9,6 +9,8 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Technologies from './components/Technologies';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -39,6 +41,7 @@ function App() {
         >
           This site use cookies.
         </CookieConsent>
+        <ToastContainer />
       </div>
     </div>
   );
