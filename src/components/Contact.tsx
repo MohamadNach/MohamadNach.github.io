@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Bounce, toast } from 'react-toastify';
+import { SubmitHandler, useForm } from 'react-hook-form';
 
 interface ContactMe {
   name: string;
@@ -10,13 +11,22 @@ interface ContactMe {
   message: string;
   send: string;
 }
+interface Inputs {
+  user_name: string;
+  user_email: string;
+  message: string;
+}
 
 const Contact = () => {
   const { t } = useTranslation();
   const contactMeTitle = t('contactMeTitle');
   const contactMe = t('contactMe', { returnObjects: true }) as ContactMe;
   const form = useRef<HTMLFormElement>(null);
-
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<Inputs>();
   // Function to show success toast
   const notify = () =>
     toast.success('Message sent successfully!', {
@@ -31,8 +41,7 @@ const Contact = () => {
       transition: Bounce,
     });
 
-  const sendEmail = (e: any) => {
-    e.preventDefault();
+  const sendEmail: SubmitHandler<Inputs> = () => {
     if (form.current) {
       emailjs
         .sendForm(
@@ -76,24 +85,43 @@ const Contact = () => {
         initial={{ x: -100, opacity: 0 }}
         transition={{ duration: 1 }}
       >
-        <form className='grid ml-[35%]' ref={form} onSubmit={sendEmail}>
+        <form
+          className='grid md:ml-0 lg:ml-[35%]'
+          ref={form}
+          onSubmit={handleSubmit(sendEmail)}
+        >
           <label htmlFor='user_name'>{contactMe.name}</label>
-          <input
-            className='w-[250px] mb-5 text-black pl-1 rounded'
-            type='text'
-            name='user_name'
-          />
+          <div className='flex'>
+            <input
+              className='w-[250px] mb-5 text-black p-1 rounded'
+              type='text'
+              {...register('user_name', { required: 'This is required.' })}
+              placeholder='Your Name'
+            />
+            <p className='pl-3 pt-1'>{errors.user_name?.message}</p>
+          </div>
+
           <label htmlFor='user_email'>{contactMe.email}</label>
-          <input
-            className='w-[250px] mb-5 text-black pl-1 rounded'
-            type='email'
-            name='user_email'
-          />
+          <div className='flex'>
+            <input
+              className='w-[250px] mb-5 text-black p-1 rounded'
+              type='email'
+              {...register('user_email', { required: 'This is required.' })}
+              placeholder='Your Email'
+            />
+            <p className='pl-3 pt-1'>{errors.user_email?.message}</p>
+          </div>
+
           <label htmlFor='message'>{contactMe.message}</label>
-          <textarea
-            className='w-[450px] h-[150px] mb-5 text-black pl-1 rounded'
-            name='message'
-          />
+          <div className='flex'>
+            <textarea
+              className='w-[350px] md:w-[450px] h-[150px] mb-5 text-black p-1 rounded'
+              {...register('message', { required: 'This is required.' })}
+              placeholder='Your Message...'
+            />
+            <p className='pl-3 pt-1'>{errors.message?.message}</p>
+          </div>
+
           <input
             className='border w-36 h-10 rounded-lg'
             type='submit'
