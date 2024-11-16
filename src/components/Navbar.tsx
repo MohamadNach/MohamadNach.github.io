@@ -16,6 +16,7 @@ const Navbar = () => {
           target='_blank'
           aria-label='Move to my LinkedIn page'
           rel='noopener noreferrer'
+          title='LinkedIn Profile'
         >
           <FaLinkedin />
         </a>
@@ -24,6 +25,7 @@ const Navbar = () => {
           target='_blank'
           aria-label='Move to my Github profile'
           rel='noopener noreferrer'
+          title='GitHub Profile'
         >
           <FaGithub />
         </a>
