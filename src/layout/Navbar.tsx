@@ -1,8 +1,8 @@
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 
-import Logo from './Logo';
-import Language from './Language';
+import Logo from '../components/Logo';
+import Language from '../components/Language';
 
 const Navbar = () => {
   return (
