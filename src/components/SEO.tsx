@@ -14,7 +14,7 @@ const SEO: React.FC<SEOProps> = ({
   description,
   name,
   type,
-  keywords = 'developer, full-stack, portfolio, React, Node.js',
+  keywords = 'Mohamad, Nachawati, developer, full-stack, portfolio, React, Node.js',
   canonicalUrl = window.location.href, // Defaults to current URL
 }) => {
   return (
