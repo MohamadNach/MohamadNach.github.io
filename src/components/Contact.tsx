@@ -88,7 +88,7 @@ const Contact = () => {
         transition={{ duration: 1 }}
       >
         <form
-          className='grid md:ml-0 lg:ml-[35%]'
+          className='grid md:ml-[20%] lg:ml-[35%]'
           ref={form}
           onSubmit={handleSubmit(sendEmail)}
         >

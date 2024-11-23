@@ -29,7 +29,7 @@ const Hero = () => {
               variants={container(0)}
               initial='hidden'
               animate='visible'
-              className={`p-2 pb-16 text-5xl tracking-tight lg:mt-16 lg:text-7xl ${
+              className={`p-2 pb-16 text-4xl tracking-tight lg:mt-16 lg:text-7xl ${
                 isArabic ? 'text-right' : ''
               }`}
             >
@@ -39,7 +39,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial='hidden'
               animate='visible'
-              className={`bg-gradient-to-r from-[#5ce1e6] via-slate-300 to-white bg-clip-text text-3xl tracking-tight text-transparent ${
+              className={`p-2 bg-gradient-to-r from-[#5ce1e6] via-slate-300 to-white bg-clip-text text-3xl tracking-tight text-transparent ${
                 isArabic ? 'text-right' : ''
               }`}
             >
@@ -57,7 +57,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className='m-auto lg:w-1/2 lg:p-12 '>
+        <div className='m-auto lg:w-1/2 lg:p-12'>
           <motion.img
             src={profilePic}
             data-fetchpriority='high'
