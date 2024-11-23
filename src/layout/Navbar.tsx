@@ -7,7 +7,7 @@ import Language from '../components/Language';
 const Navbar = () => {
   return (
     <nav className=' mb-20 flex items-center justify-between'>
-      <div className='flex flex-shrink-0 items-center w-52 h-28'>
+      <div className='flex flex-shrink-0 items-center w-20 h-28'>
         <Logo />
       </div>
       <div className='m-4 flex items-center justify-center gap-4 text-2xl cursor-pointer lg:mr-8'>
